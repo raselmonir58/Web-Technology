@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>REGISTRATION</legend>
+            
+                    <label for="name"> Name:</label>
+                    <input type="text" name="name" placeholder="Enter your Name"><br>
+                    <hr>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Enter your Email"><br> 
+                    <hr>                 
+                        
+                    <label for="username">User Name:</label>
+                    <input type="text" name="username" placeholder="Enter your UserName"><br>
+                    <hr
+                   
+                    <label for="password">Password:</label>
+                    <input type="text" name="password" placeholder="Enter password"><br>
+                    <hr>   
+                                        
+                        
+                    <label for="confirmpassword">Confirm Password:</label>
+                    <input type="password" name="confirmpassword" placeholder="Enter Confirm Password"><br>
+                    <hr>
+                    
+                    
+                        <fieldset>
+                            <legend>Gender :</legend> 
+                            <input type="radio" name="gender" value=""/>Male
+                            <input type="radio" name="gender" value=""/>Female
+                            <input type="radio" name="gender" value=""/>Other
+                        </fieldset>
+                        <hr>
+                    
+                        <fieldset>
+                            <legend>Date of Birth:</legend>
+                            <input type="number" name="" value=""> /
+                            <input type="number" name="" value=""> /  
+                            <input type="number" name="" value="">
+                            (dd/mm/yy)<br>
+                        </fieldset> 
+                        <hr>
+                        <input type="submit" name="submit" value="Submit">
+                        <input type="reset" name="reset" value="Reset">
+                    
+        </fieldset>
+    </body>
+</html>
